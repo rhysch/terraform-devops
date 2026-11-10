@@ -1,0 +1,18 @@
+# Terraform working directory and local state
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Local variable values can contain personal settings or secrets
+*.tfvars
+*.tfvars.json
+
+# SSH private keys and local overrides
+*.pem
+*.key
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
